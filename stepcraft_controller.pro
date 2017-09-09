@@ -1,4 +1,4 @@
-update=19-8-2017 0:25:09
+update=9-9-2017 21:04:09
 version=1
 last_client=kicad
 [general]
@@ -62,3 +62,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=iotta_wsn_rev2
 LibName31=smisioto.no-ip.org/w_connectors
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
