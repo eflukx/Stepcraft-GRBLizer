@@ -936,7 +936,7 @@ F 3 "" H 8050 2200 50  0001 C CNN
 	1    8050 2200
 	1    0    0    -1  
 $EndComp
-Text Label 5950 5750 0    60   ~ 0
+Text Label 5950 5950 0    60   ~ 0
 SC_RELAY1
 Text Label 5950 6150 0    60   ~ 0
 SC_DIR_X
@@ -965,12 +965,12 @@ SC_REF_4
 $Comp
 L R R12
 U 1 1 59B35B24
-P 5650 5750
-F 0 "R12" V 5750 5750 50  0001 C CNN
-F 1 "100" V 5650 5750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 5580 5750 50  0001 C CNN
-F 3 "" H 5650 5750 50  0001 C CNN
-	1    5650 5750
+P 5650 5950
+F 0 "R12" V 5750 5950 50  0001 C CNN
+F 1 "100" V 5650 5950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5580 5950 50  0001 C CNN
+F 3 "" H 5650 5950 50  0001 C CNN
+	1    5650 5950
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -1105,19 +1105,19 @@ F 3 "" H 5650 7450 50  0001 C CNN
 	1    5650 7450
 	0    -1   1    0   
 $EndComp
-Text Label 5950 5950 0    60   ~ 0
+Text Label 5950 5750 0    60   ~ 0
 SC_RELAY3
 Text Label 5950 5850 0    60   ~ 0
 SC_RELAY2
 $Comp
 L R R14
 U 1 1 59B37BAF
-P 5650 5950
-F 0 "R14" V 5750 5950 50  0001 C CNN
-F 1 "100" V 5650 5950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 5580 5950 50  0001 C CNN
-F 3 "" H 5650 5950 50  0001 C CNN
-	1    5650 5950
+P 5650 5750
+F 0 "R14" V 5750 5750 50  0001 C CNN
+F 1 "100" V 5650 5750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5580 5750 50  0001 C CNN
+F 3 "" H 5650 5750 50  0001 C CNN
+	1    5650 5750
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -1201,8 +1201,6 @@ F 3 "" H 5150 4700 50  0001 C CNN
 $EndComp
 Text Label 4750 5950 2    60   ~ 0
 A3
-Text Label 4750 5850 2    60   ~ 0
-D13
 Text Label 4750 5750 2    60   ~ 0
 D8
 Text Label 5550 5050 0    60   ~ 0
@@ -1779,4 +1777,6 @@ F 3 "" H 2200 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2200 1350
+Text Label 4750 5850 2    60   ~ 0
+D13_SCK
 $EndSCHEMATC
