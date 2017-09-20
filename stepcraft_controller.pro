@@ -1,4 +1,4 @@
-update=9-9-2017 21:28:08
+update=20-9-2017 19:54:03
 version=1
 last_client=kicad
 [general]
@@ -27,6 +27,16 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=../iotta-kicad-libs
@@ -62,13 +72,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=iotta_wsn_rev2
 LibName31=smisioto.no-ip.org/w_connectors
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
+LibName32=C:/Program Files/KiCad/share/kicad/library/silabs
