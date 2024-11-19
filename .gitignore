@@ -1,5 +1,8 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
+fp-info-cache
 _saved*
+*-backup
+*-backups
 
 # Temporary files
 *.000

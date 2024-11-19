@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name stepcraft_controller-rescue)(type Legacy)(uri ${KIPRJMOD}/stepcraft_controller-rescue.lib)(options "")(descr ""))
-  (lib (name iotta_wsn_rev2)(type Legacy)(uri C:/code/Hardware/iotta-kicad-libs/iotta_wsn_rev2.lib)(options "")(descr ""))
-  (lib (name w_connectors)(type Legacy)(uri C:/code/Hardware/iotta-kicad-libs/smisioto.no-ip.org/w_connectors.lib)(options "")(descr ""))
-)
