@@ -1,9 +1,9 @@
 # Stepcraft GRBLizer
 
-A GRBL compatible controller for use as a drop-in replacement for the SC100 USB standard controller deliverd with Stepcraft CNC machines. This Arduino Uno compatible controller is wired conforming the GRL v0.9+ standard. The controller can be used with the GRBL firmware and with EstlCAM. 
+A GRBL compatible controller for use as a drop-in replacement for the SC100 USB standard controller deliverd with Stepcraft CNC machines. This Arduino Uno compatible controller is wired conforming the GRL v0.9+ standard. The controller can be used with the GRBL firmware and with EstlCAM.
 
 ## Features
-  - The PC is fully electrically isolated from the CNC machine (optional). 
+  - The PC is fully electrically isolated from the CNC machine (optional).
 	- Device is powered via the Stepcraft machine (not from USB port) and optionally from the ISP port.
   - All inputs protected with clamping diodes and resistors.
   - Probe inputs have a 100 Ohm / 10nF low pass filter to suppress spurious triggering. (Filter values may be experimented with.)
@@ -17,6 +17,8 @@ Alvast een leuk plaatje:
 ![PCB Render](images/render_rev1.3.png)
 
 
+# interactive BOM
+Access the [interactive bom directly using this link](https://cdn.githubraw.com/eflukx/Stepcraft-GRBLizer/4cef8a3f/ibom/ibom.html)!
 # Stepcraft 420 CNC settings with GRBLizer
 
 Notes kindly provided by [Albin Stigö](https://github.com/ast) on getting [GRBL v1.1](https://github.com/gnea/grbl/wiki) working with the
@@ -45,7 +47,7 @@ Install GRBL in the usual way. However you need to make some changes in config.h
 ```c
 /* config.h */
 
-// Since all limit switches end up being shared on one pin, 
+// Since all limit switches end up being shared on one pin,
 // we can only home one direction at a time.
 #define HOMING_CYCLE_0 (1<<Z_AXIS)  // REQUIRED: First move Z to clear workspace.
 #define HOMING_CYCLE_1 (1<<Y_AXIS)  // OPTIONAL: Then move X,Y at the same time.
